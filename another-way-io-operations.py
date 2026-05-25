@@ -1,0 +1,7 @@
+f=open('notes.txt','w')
+content=f.write("Learning python is fun!")
+f.close()
+f=open('notes.txt','r')
+content=f.read()
+print(content)
+f.close()
